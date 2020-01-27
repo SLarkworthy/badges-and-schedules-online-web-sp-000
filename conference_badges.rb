@@ -23,6 +23,7 @@ def printer(array)
   loop do
     if i < array.length
       puts batch_badge_creator(array)[index]
-      puts assigned
+      puts assign_rooms(array)[index]
+      index += 1
   end
 end
