@@ -25,5 +25,6 @@ def printer(array)
       puts batch_badge_creator(array)[index]
       puts assign_rooms(array)[index]
       index += 1
+    end
   end
 end
